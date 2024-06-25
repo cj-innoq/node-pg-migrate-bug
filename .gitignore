@@ -1,0 +1,4 @@
+node_modules
+build
+# MacOS specific
+.DS_Store

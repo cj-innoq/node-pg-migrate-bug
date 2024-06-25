@@ -1,0 +1,12 @@
+{
+    "db": {
+        "driver": "pg",
+        "user": "postgres",
+        "password": "secret",
+        "host": "localhost",
+        "port": 5432,
+        "database": "postgres",
+        "schema": "migratetest",
+        "max-connections": 30
+    }
+}

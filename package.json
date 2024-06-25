@@ -1,0 +1,13 @@
+{
+  "name": "node-pg-migrate-bug",
+  "version": "1.0.0",
+  "scripts": {
+    "migrate:test": "env NODE_ENV=test node-pg-migrate up",
+    "newmigration": "env NODE_ENV=test node-pg-migrate create init"
+  },
+  "dependencies": {
+    "config": "3.3.11",
+    "node-pg-migrate": "7.5.1",
+    "pg": "8.11.5"
+  }
+}
